@@ -91,12 +91,12 @@ nav .container {
   align-items: center;
   justify-content: space-between;
 }
-nav .search-bar {
+.search-bar {
   background: var(--color-light);
   border-radius: var(--border-radius);
   padding: var(--search-padding);
 }
-nav .search-bar input[type="search"] {
+.search-bar input[type="search"] {
   background: transparent;
   width: 30vw;
   margin-left: 1rem;
@@ -368,4 +368,22 @@ main .container .left .profile {
 }
 .middle .liked-by p {
   margin-left: 0.5rem;
+}
+/*============  Right ===========*/
+main .container .right {
+  height: max-content;
+  position: sticky;
+  top: var(--sticky-top-right);
+  bottom: 0;
+}
+.right .messages {
+  background: var(--color-white);
+  border-radius: var(--card-border-radius);
+  padding: var(--card-padding);
+}
+.right .messages .heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
 }
